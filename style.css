@@ -27,10 +27,9 @@ body {
 #navbar {
     display: flex;
     justify-content: space-between;
-    background: #333333;
-    color:#333;
+    background:rgb(0, 0, 0);
     padding: 1.5rem 8rem;
-    position: sticky;
+    position: relative;
     top:0;
     z-index:999;
 }
@@ -64,9 +63,14 @@ body {
 
 #showcase{
     background: url(https://media.discordapp.net/attachments/401284939775082496/420744526001471488/Random_thingy.jpg?width=1214&height=683) no-repeat center center/cover;
-    height:91.4vh
+    height:100vh;
+    z-index:45;
 }
 #photo{background-color:gray;}
+.container p {
+    font-size: 18px;
+    font-weight:bold;
+}
 .container img {
     width:200px;
     height:auto;
